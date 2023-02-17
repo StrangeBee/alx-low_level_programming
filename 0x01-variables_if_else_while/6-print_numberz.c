@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Prints numbers of base 10
  *
