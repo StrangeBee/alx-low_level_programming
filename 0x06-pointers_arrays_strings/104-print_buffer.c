@@ -3,9 +3,9 @@
 
 /**
  * print_buffer - prints buffer
- * @b: buffer
- * @size: size
- * Return: void
+ * @b: buffer.
+ * @size: size.
+ * Return: no retun.
  */
 void print_buffer(char *b, int size)
 {
