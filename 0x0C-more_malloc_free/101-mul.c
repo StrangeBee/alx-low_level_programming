@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <ctype.h>
 
 /**
  * _is_zero - determines if any number is zero
@@ -19,6 +18,7 @@ void _is_zero(char *argv[])
 			isn1 = 0;
 			break;
 		}
+
 	for (i = 0; argv[2][i]; i++)
 		if (argv[2][i] != '0')
 		{
@@ -56,7 +56,7 @@ char *_initialize_array(char *ar, int lar)
  * @argv: arguments vector.
  * @n: row of the array.
  *
- * Return: length of th number.
+ * Return: length of the number.
  */
 int _checknum(char *argv[], int n)
 {
