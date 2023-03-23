@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * get_op_func - Selects the correct function to perform
- * the operation asked by user.
- * @s: The operator passed as argument.
+ * the operation asked by the user.
+ * @s: The operator passed as arguments.
  *
  * Return: A pointer to the function corresponding
  * to the operator given as a parameter.
