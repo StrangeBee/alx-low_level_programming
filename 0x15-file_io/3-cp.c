@@ -6,7 +6,7 @@
  * @file_from: file_from.
  * @file_to: file_to.
  * @argv: arguments vector.
- * Return: no return
+ * Return: no return.
  */
 void error_file(int file_from, int file_to, char *argv[])
 {
@@ -18,12 +18,11 @@ void error_file(int file_from, int file_to, char *argv[])
 	if (file_to == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
-		exit(99);
 	}
 }
 
 /**
- * main - Copies the contents of a file to another file.
+ * main - copies the contents of a file to another file.
  * @argc: number of arguments.
  * @argv: arguments vector.
  * Return: Always 0.
@@ -36,7 +35,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		dprintf(STDERR_FILENO, "%s\n", "Usage: cp file-from file-to");
+		dprintf(STDERR_FILENO, "%s\n", "Usage: cp file_from file_to");
 		exit(97);
 	}
 
